@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		190BA85E216C3B200060CE9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA85D216C3B200060CE9A /* AppDelegate.swift */; };
-		190BA860216C3B200060CE9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA85F216C3B200060CE9A /* ViewController.swift */; };
+		190BA860216C3B200060CE9A /* CoinsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA85F216C3B200060CE9A /* CoinsController.swift */; };
 		190BA863216C3B200060CE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190BA861216C3B200060CE9A /* Main.storyboard */; };
 		190BA865216C3B220060CE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190BA864216C3B220060CE9A /* Assets.xcassets */; };
 		190BA868216C3B220060CE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190BA866216C3B220060CE9A /* LaunchScreen.storyboard */; };
+		190BA876216C3CDC0060CE9A /* SymbilityRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA875216C3CDC0060CE9A /* SymbilityRequest.swift */; };
+		190BA878216C3D0D0060CE9A /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA877216C3D0D0060CE9A /* RequestError.swift */; };
+		190BA87B216C3DA60060CE9A /* SymbilityTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA87A216C3DA60060CE9A /* SymbilityTheme.swift */; };
+		190BA87D216C3E1E0060CE9A /* CoinsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA87C216C3E1E0060CE9A /* CoinsViewModel.swift */; };
+		190BA880216C3E8C0060CE9A /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA87F216C3E8C0060CE9A /* CoinImageView.swift */; };
+		190BA882216C3EBB0060CE9A /* NavTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA881216C3EBB0060CE9A /* NavTitleView.swift */; };
+		190BA884216C40850060CE9A /* CoinsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA883216C40850060CE9A /* CoinsConstant.swift */; };
+		190BA886216C425B0060CE9A /* CoinsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA885216C425B0060CE9A /* CoinsCell.swift */; };
+		190BA889216CE49D0060CE9A /* CoinPriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA888216CE49D0060CE9A /* CoinPriceLabel.swift */; };
+		19112ECC216D48F700555C74 /* CoinsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19112ECB216D48F700555C74 /* CoinsHeaderCell.swift */; };
+		19112ED0216D4BD900555C74 /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19112ECF216D4BD900555C74 /* IntroController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		190BA85A216C3B200060CE9A /* SymbilityIntersect-CodeChallenge1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SymbilityIntersect-CodeChallenge1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		190BA85D216C3B200060CE9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		190BA85F216C3B200060CE9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		190BA85F216C3B200060CE9A /* CoinsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsController.swift; sourceTree = "<group>"; };
 		190BA862216C3B200060CE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		190BA864216C3B220060CE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190BA867216C3B220060CE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190BA869216C3B220060CE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190BA875216C3CDC0060CE9A /* SymbilityRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SymbilityRequest.swift; path = "SymbilityIntersect-CodeChallenge1/Modules/SymbilityRequest.swift"; sourceTree = SOURCE_ROOT; };
+		190BA877216C3D0D0060CE9A /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RequestError.swift; path = "SymbilityIntersect-CodeChallenge1/Modules/RequestError.swift"; sourceTree = SOURCE_ROOT; };
+		190BA87A216C3DA60060CE9A /* SymbilityTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbilityTheme.swift; sourceTree = "<group>"; };
+		190BA87C216C3E1E0060CE9A /* CoinsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewModel.swift; sourceTree = "<group>"; };
+		190BA87F216C3E8C0060CE9A /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
+		190BA881216C3EBB0060CE9A /* NavTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTitleView.swift; sourceTree = "<group>"; };
+		190BA883216C40850060CE9A /* CoinsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsConstant.swift; sourceTree = "<group>"; };
+		190BA885216C425B0060CE9A /* CoinsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsCell.swift; sourceTree = "<group>"; };
+		190BA888216CE49D0060CE9A /* CoinPriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPriceLabel.swift; sourceTree = "<group>"; };
+		19112ECB216D48F700555C74 /* CoinsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsHeaderCell.swift; sourceTree = "<group>"; };
+		19112ECF216D4BD900555C74 /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,113 @@
 		190BA85C216C3B200060CE9A /* SymbilityIntersect-CodeChallenge1 */ = {
 			isa = PBXGroup;
 			children = (
-				190BA85D216C3B200060CE9A /* AppDelegate.swift */,
-				190BA85F216C3B200060CE9A /* ViewController.swift */,
-				190BA861216C3B200060CE9A /* Main.storyboard */,
-				190BA864216C3B220060CE9A /* Assets.xcassets */,
-				190BA866216C3B220060CE9A /* LaunchScreen.storyboard */,
+				190BA873216C3CB30060CE9A /* Managers */,
+				190BA872216C3C970060CE9A /* Constants */,
+				190BA871216C3C8D0060CE9A /* Modules */,
+				190BA870216C3C6B0060CE9A /* Assets */,
+				190BA86F216C3BC00060CE9A /* Root */,
 				190BA869216C3B220060CE9A /* Info.plist */,
 			);
 			path = "SymbilityIntersect-CodeChallenge1";
+			sourceTree = "<group>";
+		};
+		190BA86F216C3BC00060CE9A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				190BA85D216C3B200060CE9A /* AppDelegate.swift */,
+				190BA866216C3B220060CE9A /* LaunchScreen.storyboard */,
+				190BA861216C3B200060CE9A /* Main.storyboard */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		190BA870216C3C6B0060CE9A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				190BA864216C3B220060CE9A /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		190BA871216C3C8D0060CE9A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				19112ECD216D4BB800555C74 /* Intro */,
+				190BA87E216C3E440060CE9A /* Accessory */,
+				190BA879216C3D890060CE9A /* CoinList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		190BA872216C3C970060CE9A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				190BA87A216C3DA60060CE9A /* SymbilityTheme.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		190BA873216C3CB30060CE9A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				190BA874216C3CC00060CE9A /* RequestManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		190BA874216C3CC00060CE9A /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				190BA875216C3CDC0060CE9A /* SymbilityRequest.swift */,
+				190BA877216C3D0D0060CE9A /* RequestError.swift */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		190BA879216C3D890060CE9A /* CoinList */ = {
+			isa = PBXGroup;
+			children = (
+				19112ECE216D4BC300555C74 /* Accessory */,
+				190BA887216C42600060CE9A /* Cells */,
+				190BA85F216C3B200060CE9A /* CoinsController.swift */,
+				190BA87C216C3E1E0060CE9A /* CoinsViewModel.swift */,
+				190BA883216C40850060CE9A /* CoinsConstant.swift */,
+			);
+			path = CoinList;
+			sourceTree = "<group>";
+		};
+		190BA87E216C3E440060CE9A /* Accessory */ = {
+			isa = PBXGroup;
+			children = (
+				190BA881216C3EBB0060CE9A /* NavTitleView.swift */,
+			);
+			path = Accessory;
+			sourceTree = "<group>";
+		};
+		190BA887216C42600060CE9A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				190BA885216C425B0060CE9A /* CoinsCell.swift */,
+				19112ECB216D48F700555C74 /* CoinsHeaderCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		19112ECD216D4BB800555C74 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				19112ECF216D4BD900555C74 /* IntroController.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		19112ECE216D4BC300555C74 /* Accessory */ = {
+			isa = PBXGroup;
+			children = (
+				190BA888216CE49D0060CE9A /* CoinPriceLabel.swift */,
+				190BA87F216C3E8C0060CE9A /* CoinImageView.swift */,
+			);
+			path = Accessory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +256,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190BA860216C3B200060CE9A /* ViewController.swift in Sources */,
+				190BA878216C3D0D0060CE9A /* RequestError.swift in Sources */,
+				190BA87D216C3E1E0060CE9A /* CoinsViewModel.swift in Sources */,
+				190BA889216CE49D0060CE9A /* CoinPriceLabel.swift in Sources */,
+				190BA876216C3CDC0060CE9A /* SymbilityRequest.swift in Sources */,
+				190BA87B216C3DA60060CE9A /* SymbilityTheme.swift in Sources */,
+				190BA860216C3B200060CE9A /* CoinsController.swift in Sources */,
+				190BA880216C3E8C0060CE9A /* CoinImageView.swift in Sources */,
+				190BA886216C425B0060CE9A /* CoinsCell.swift in Sources */,
+				190BA884216C40850060CE9A /* CoinsConstant.swift in Sources */,
+				19112ECC216D48F700555C74 /* CoinsHeaderCell.swift in Sources */,
+				19112ED0216D4BD900555C74 /* IntroController.swift in Sources */,
 				190BA85E216C3B200060CE9A /* AppDelegate.swift in Sources */,
+				190BA882216C3EBB0060CE9A /* NavTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
