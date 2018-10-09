@@ -22,7 +22,6 @@
 		190BA886216C425B0060CE9A /* CoinsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA885216C425B0060CE9A /* CoinsCell.swift */; };
 		190BA889216CE49D0060CE9A /* CoinPriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190BA888216CE49D0060CE9A /* CoinPriceLabel.swift */; };
 		19112ECC216D48F700555C74 /* CoinsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19112ECB216D48F700555C74 /* CoinsHeaderCell.swift */; };
-		19112ED0216D4BD900555C74 /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19112ECF216D4BD900555C74 /* IntroController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +42,6 @@
 		190BA885216C425B0060CE9A /* CoinsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsCell.swift; sourceTree = "<group>"; };
 		190BA888216CE49D0060CE9A /* CoinPriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPriceLabel.swift; sourceTree = "<group>"; };
 		19112ECB216D48F700555C74 /* CoinsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsHeaderCell.swift; sourceTree = "<group>"; };
-		19112ECF216D4BD900555C74 /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +105,6 @@
 		190BA871216C3C8D0060CE9A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				19112ECD216D4BB800555C74 /* Intro */,
 				190BA87E216C3E440060CE9A /* Accessory */,
 				190BA879216C3D890060CE9A /* CoinList */,
 			);
@@ -166,14 +163,6 @@
 				19112ECB216D48F700555C74 /* CoinsHeaderCell.swift */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		19112ECD216D4BB800555C74 /* Intro */ = {
-			isa = PBXGroup;
-			children = (
-				19112ECF216D4BD900555C74 /* IntroController.swift */,
-			);
-			path = Intro;
 			sourceTree = "<group>";
 		};
 		19112ECE216D4BC300555C74 /* Accessory */ = {
@@ -266,7 +255,6 @@
 				190BA886216C425B0060CE9A /* CoinsCell.swift in Sources */,
 				190BA884216C40850060CE9A /* CoinsConstant.swift in Sources */,
 				19112ECC216D48F700555C74 /* CoinsHeaderCell.swift in Sources */,
-				19112ED0216D4BD900555C74 /* IntroController.swift in Sources */,
 				190BA85E216C3B200060CE9A /* AppDelegate.swift in Sources */,
 				190BA882216C3EBB0060CE9A /* NavTitleView.swift in Sources */,
 			);
