@@ -27,7 +27,14 @@ class CoinPriceLabel: UILabel
         if let priceFromCache = priceCache.object(forKey: code as AnyObject) as? Double
         {
             DispatchQueue.main.async {
-                self.text = CoinsConstant.currSymbol + String(priceFromCache)
+                if priceFromCache > 1
+                {
+                    self.text = CoinsConstant.currSymbol + String(priceFromCache)
+                }
+                else
+                {
+                    self.text = CoinsConstant.currSymbol + String(format: "%.5f", priceFromCache)
+                }
             }
             return
         }
@@ -47,7 +54,15 @@ class CoinPriceLabel: UILabel
                     if self?.code == code
                     {
                         DispatchQueue.main.async {
-                            self?.text = CoinsConstant.currSymbol + String(price)
+                            
+                            if price > 1
+                            {
+                                self?.text = CoinsConstant.currSymbol + String(price)
+                            }
+                            else
+                            {
+                                self?.text = CoinsConstant.currSymbol + String(format: "%.5f", price)
+                            }
                         }
                     }
 
